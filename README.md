@@ -1,1 +1,1 @@
-# machine-learning
+Wine Type Classification (Supervised Learning)
