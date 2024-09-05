@@ -27,6 +27,16 @@ The dataset used in this project is the well-known Wine dataset from the UCI Mac
       * The trained models were evaluated on the test dataset using metrics like F1-score, accuracy, precision, and recall.
       * The confusion matrix was also plotted to visualize the model's predictions.
 
+**Hyperparameter Tuning**
+
+Grid search was employed to find the best hyperparameters for the KNN and Decision Tree models. The following hyperparameters were explored:
+
+  * **KNN:**
+      * `n_neighbors`: 5 and 10
+      * `metric`: 'manhattan' and 'chebyshev'
+  * **Decision Tree:**
+      * `max_depth`: 4 and 6
+
 ## **Results**
 
 The K-Nearest Neighbors (KNN) algorithm with 10 neighbors and Manhattan distance metric achieved the highest F1-score of 1.00, indicating perfect classification accuracy for all classes.
