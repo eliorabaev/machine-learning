@@ -7,7 +7,6 @@ This project aims to classify wines into three different categories (1, 2, or 3)
 ## **Dataset**
 
 The dataset used in this project is the well-known Wine dataset from the UCI Machine Learning Repository (<https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data>). It contains information about 178 wines, including their class and the values of 13 chemical properties.
-More details at the end of this page.
 
 ## **Methodology**
 
@@ -31,15 +30,6 @@ More details at the end of this page.
 ## **Results**
 
 The K-Nearest Neighbors (KNN) algorithm with 10 neighbors and Manhattan distance metric achieved the highest F1-score of 1.00, indicating perfect classification accuracy for all classes.
-
-## **Future Work**
-
-Potential areas for future work include:
-
-  * **Feature Engineering:** Exploring the creation of new features from existing ones.
-  * **Model Selection:** Testing other algorithms or ensemble methods.
-  * **Hyperparameter Optimization:** Using more advanced hyperparameter optimization techniques.
-  * **Real-World Application:** Deploying the model in a real-world setting to assess its performance on unseen data.
 
 ## **Video Demonstration**
 
