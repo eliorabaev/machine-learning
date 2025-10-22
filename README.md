@@ -4,6 +4,10 @@
 
 This project aims to classify wines into three different categories (1, 2, or 3) based on their chemical composition. It utilizes supervised learning techniques to predict the wine type using various features such as alcohol content, malic acid, ash, and others.
 
+## **Video Demonstration**
+
+[![Image of YouTube Video Thumbnail](https://i.ytimg.com/vi/Fg_TTFAPT84/0.jpg)](https://www.youtube.com/watch?v=Fg_TTFAPT84)
+
 ## **Dataset**
 
 The dataset used in this project is the well-known Wine dataset from the UCI Machine Learning Repository (<https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data>). It contains information about 178 wines, including their class and the values of 13 chemical properties.
@@ -41,6 +45,3 @@ Grid search was employed to find the best hyperparameters for the KNN and Decisi
 
 The K-Nearest Neighbors (KNN) algorithm with 10 neighbors and Manhattan distance metric achieved the highest F1-score of 1.00, indicating perfect classification accuracy for all classes.
 
-## **Video Demonstration**
-
-[![Image of YouTube Video Thumbnail](https://i.ytimg.com/vi/Fg_TTFAPT84/0.jpg)](https://www.youtube.com/watch?v=Fg_TTFAPT84)
